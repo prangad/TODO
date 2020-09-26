@@ -6,8 +6,7 @@ How many times have you walked aimlessly through a grocery store trying to remem
 
 * [Dylan Pranga - Programmer](https://github.com/prangad/CIS350-HW2-PRANGA)
 * [Taylor Haag - Programmer](https://github.com/haagta/CIS350-HW2-HAAG)
-
-* Member 3 (Role 5, Role 6)
+* [Raunak Shahi - Programmer](https://github.com/Raunak03/CIS350-HW2-Shahi)
 
 ## Prerequisites
 
