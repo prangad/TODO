@@ -25,7 +25,9 @@ We plan to create a backlog of tasks on Jira for all of the features and subtask
 	* Create an application icon.
 	* Follow a theme for login screen.
 	* Determine aesthetic aspects of the application.
+	
 __Midterm Deliverables 10/28 - 10/30__
+
 * Grocery Item Object (Sprint 4 - 1 Week)
 	* Create an object that can store specific details about a grocery item being purchased.
 * Creating Lists (Sprint 5 - 1 Week)
@@ -35,6 +37,7 @@ __Midterm Deliverables 10/28 - 10/30__
 * Testing (Sprint 7 - 2 weeks)
 	* Perform unit testing.
 	* Perform integration testing.
+	
 __Final Deliverables 12/07 - 12/11__
 
 # Anticipated Problems
