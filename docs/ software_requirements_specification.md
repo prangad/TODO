@@ -1,5 +1,6 @@
 # Overview
-The purpose of this document is to specify descriptions of how our system should behave as well as outline functional and non functional aspects of the application.
+The purpose of this document is to specify descriptions of how our system should behave as well as outline functional and non functional aspects of the application. This document outlines the specific functionality and constraints of the application, but not the implementation methods. 
+
 # Functional Requirements
 1. User Login Service
     1. R1.1: The application shall query the database for information regarding the user attempting to log in.
@@ -7,8 +8,8 @@ The purpose of this document is to specify descriptions of how our system should
 1. Cloud-Based Shopping List Access
     1. R2.1: The application shall store local list data to the database. 
     1. R2.2: The application shall query the database for list data and store locally.
-    1. R2.3: The application shall have the ability to form and invite users to user groups. 
-    1. R2.4: The application shall link shopping lists to users of the same group in the database. 
+    1. R2.3: The application shall have the ability to join and leave list groups. 
+    1. R2.4: The application shall have the ability to create new list groups. 
 1. Shopping List Cost Splitting Calculator
     1. R3.1: The application shall calculate the split cost of the completed shopping based on the items bought, price of the products input by the user, as well as the specified consumers receiving the product.
     1. R3.2: The application shall allow users to enter a product price that can be stored in 16 bits (0 -65,535).
