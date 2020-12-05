@@ -9,5 +9,12 @@ How many times have you walked aimlessly through a grocery store trying to remem
 * [Raunak Shahi - Programmer](https://github.com/Raunak03/CIS350-HW2-Shahi)
 
 ## Prerequisites
-
+* Android Studio
+* Pixel2 XL Android Emulator (Other Android emulators may work.)
+* Java JDK 1.8
 ## Run Instructions
+1. Clone the project via Github through Android Studio.
+1. Ensure the proper JDK environment is set up. (JDK 1.8)
+1. Start your Pixel2 XL Android Emulator.
+1. Execute the android application on your Android emulator through Android Studio.
+1. Register a new account, and sign in.
