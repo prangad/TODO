@@ -91,7 +91,7 @@ This section contains unit tests, integration tests, and system tests that were 
 
 ## System tests
 | ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
-| :-----: | :----------: | :--------------------: | :----------: | :----------: | :----------: | :-----: | :-----: |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | ??? | Successful Shopping | <ol><li>Login</li><li>Select List from "Your Lists"</li><li>Add a Product</li><li>Edit a Product</li><li>Select "Start Shopping"</li><li>Select Multiple Products</li><li>Complete Shopping</li><li>Verify Split Cost is Accurate and Proportional to Purchased Products</li><ol> | N/A | Correct Price Distribution Between Consumers | N/A | Pass | ??? |
 | ??? | Simple Navigation from List Products Screen to Home | <ol><li>Navigate to List Products Screen</li><li>Select Home Button (Do Not Use Android Back Button)</li><li>Verify App Navigates Home</li></ol> | Manual Home Button Select | App Navigates Home | App Navigated Home | Pass | ??? |
 | ??? | Simple Navigation from Shopping Screen to Home | <ol><li>Navigate to Shopping Screen</li><li>Select Home Button (Do Not Use Android Back Button)</li><li>Verify App Navigates Home</li></ol> | Manual Home Button Select | App Navigates Home | App Navigated Home | Pass | ??? |
