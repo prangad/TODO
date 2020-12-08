@@ -59,7 +59,7 @@ This section outlines the Software requirements. It is divided into two subsecti
 | NFR2 | The application shall have a consistent theme and use the font Nunito. | TBD |
 | NFR3 | The application shall use the icon logo.png. | TC21 |
 | NFR4 | The application shall show the selected items during a shopping trip using color (80, 160, 102). | TBD |
-| NFR5 | The application shall use the format “$###,###,###.00” for all dollar values. | TBD |
+| NFR5 | The application shall use the format “$###,###,##0.00” for all dollar values. | TBD |
 
 ### User Messages
 
@@ -88,15 +88,22 @@ This section contains unit tests, integration tests, and system tests that were 
 ## Unit tests
 
 ## Integration tests
-
+| ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| TC11 | Successful Login | <ol><li>Log in Using Username and Password in Default Database</li><li>Verify Successful Login</li></ol> | Valid Username and Password | Verified User Proceeds to Home Screen | Verified User Proceeded to Home Screen | Pass | ??? |
+| TC12 | Unsuccessful Login | <ol><li>Log in Using Unknown Username and Password</li><li>Verify Unsuccessful Login</li></ol> | Unknown Username and Password | Unverified User is Prompted to Login | Unverified User was Prompted to Login | Pass | ??? |
+| TC13 | User Joining Lists | <ol><li>Select "All Lists" Tab on Home Screen</li><li>Select a List the Verified User has not Joined</li><li>Verify the Selected List Appears in "Your Lists" on Home Screen</li></ol> | Manual List Selection | Verified User Joins List | Verified User Joined List | Pass | ??? |
+| TC14 | Split Cost | <ol><li>Begin a Shopping Trip for Any List</li><li>Select Multiple Products</li><li>Select "Complete Shopping"</li><li>Verify Split Cost is Accurate and Proportional to Purchased Products</li></ol> | Manual Shopping Completion | Consumers Receive Accurate Cost Split | Consumers Received Accurate Cost Split | Pass | ??? |
+| TC15 | Product Selection During Shopping | <ol><li>Begin a Shopping Trip for Any List</li><li>Select Multiple Items</li><li>Verify Items get Marked and Total Increases Appropriately</li></ol> | Manual Product Selection | Products Marked Green and Total Increases | Products were Marked Green and Total Increased | Pass | ??? |
+| TC16 | Removal of Purchased Products | <ol><li>Begin a Shopping Trip for Any List</li><li>Select Multiple Products</li><li>Select "Complete Shopping"</li><li>Return to List Screen</li><li>Ensure Products Selected were Removed from List</li></ol> | Manual Shopping Completion | Products are Removed from List | Products were Removed From List | Pass | ??? |
 ## System tests
 | ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| ??? | Successful Shopping | <ol><li>Login</li><li>Select List from "Your Lists"</li><li>Add a Product</li><li>Edit a Product</li><li>Select "Start Shopping"</li><li>Select Multiple Products</li><li>Complete Shopping</li><li>Verify Split Cost is Accurate and Proportional to Purchased Products</li><ol> | N/A | Correct Price Distribution Between Consumers | N/A | Pass | ??? |
-| ??? | Simple Navigation from List Products Screen to Home | <ol><li>Navigate to List Products Screen</li><li>Select Home Button (Do Not Use Android Back Button)</li><li>Verify App Navigates Home</li></ol> | Manual Home Button Select | App Navigates Home | App Navigated Home | Pass | ??? |
-| ??? | Simple Navigation from Shopping Screen to Home | <ol><li>Navigate to Shopping Screen</li><li>Select Home Button (Do Not Use Android Back Button)</li><li>Verify App Navigates Home</li></ol> | Manual Home Button Select | App Navigates Home | App Navigated Home | Pass | ??? |
-| ??? | Simple Navigation from Summary Screen to Home | <ol><li>Navigate to Summary Screen</li><li>Select Home Button (Do Not Use Android Back Button)</li><li>Verify App Navigates Home</li></ol> | Manual Home Button Select | App Navigates Home | App Navigated Home | Pass | ??? |
-| ??? | Uses HotShop Logo for App Icon | <ol><li>Navigate to Phone Downloaded Apps Overview</li><li>Locate HotShop App</li><li>Verify App Icon Contains App Logo</li></ol> | Manual Navigation | App Icon Contains App Logo | App Contained App Logo | Pass | ??? |
+| TC17 | Successful Shopping | <ol><li>Login</li><li>Select List from "Your Lists"</li><li>Add a Product</li><li>Edit a Product</li><li>Select "Start Shopping"</li><li>Select Multiple Products</li><li>Complete Shopping</li><li>Verify Split Cost is Accurate and Proportional to Purchased Products</li><ol> | N/A | Correct Price Distribution Between Consumers | N/A | Pass | ??? |
+| TC18 | Simple Navigation from List Products Screen to Home | <ol><li>Navigate to List Products Screen</li><li>Select Home Button (Do Not Use Android Back Button)</li><li>Verify App Navigates Home</li></ol> | Manual Home Button Select | App Navigates Home | App Navigated Home | Pass | ??? |
+| TC19 | Simple Navigation from Shopping Screen to Home | <ol><li>Navigate to Shopping Screen</li><li>Select Home Button (Do Not Use Android Back Button)</li><li>Verify App Navigates Home</li></ol> | Manual Home Button Select | App Navigates Home | App Navigated Home | Pass | ??? |
+| TC20 | Simple Navigation from Summary Screen to Home | <ol><li>Navigate to Summary Screen</li><li>Select Home Button (Do Not Use Android Back Button)</li><li>Verify App Navigates Home</li></ol> | Manual Home Button Select | App Navigates Home | App Navigated Home | Pass | ??? |
+| TC21 | Uses HotShop Logo for App Splashscreen | <ol><li>Navigate to Phone Downloaded Apps Overview</li><li>Locate HotShop App</li><li>Launch HotShop App</li><li>Verify App Splashscreen Contains App Logo</li></ol> | Manual Navigation | App Splashscreen Contains App Logo | App Splashscreen Contained App Logo | Pass | ??? |
 ---
 
 # Software Artifacts
