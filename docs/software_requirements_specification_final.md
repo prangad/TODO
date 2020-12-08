@@ -83,8 +83,7 @@ This section outlines the Software requirements. It is divided into two subsecti
 
 ---
 # Test Specification
-
-<Description of what this section is>
+This section contains unit tests, integration tests, and system tests that were carried out on the HotShop application. The tests cover most-all basic functions of the application and ensure the application is working as intended.
 
 ## Unit tests
 
