@@ -16,7 +16,7 @@ This section outlines the Software requirements. It is divided into two subsecti
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
 | FR1 | The application shall allow a user to login if the user’s password and username match the local database. | TC11 |
-| FR2 |  The application shall not allow a user to login if the user’s password and username do not match the local database. | TC12 |
+| FR2 | The application shall not allow a user to login if the user’s password and username do not match the local database. | TC12 |
 | FR3 | The application shall contain a static “DB” class contained within the application that stores usernames and passwords. | TC5|
 | FR4 | The application shall ensure emails follow a basic email convention consisting of strings separated by ‘@’ and ‘.’ | TBD |
 | FR5 | The application shall ensure passwords follow a basic password convention in which passwords are a minimum of 5 characters long. | TBD |
@@ -66,7 +66,7 @@ This section outlines the Software requirements. It is divided into two subsecti
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
 | NFR6 | The application shall provide an error message to the user if the username and password do not match. | TBD |
-| NFR7 | The application shall provide an error message if the input email does not match the basic email convention consisting of strings separated by ‘@’ and ‘.’| TBD |
+| NFR7 | The application shall provide an error message if the input email does not match the basic email convention consisting of strings separated by ‘@’ and ‘.’ | TBD |
 | NFR8 | The application shall provide a toast displaying the name of the list when selecting a list to be edited/shopped. | TBD |
 | NFR9 | The application shall provide a toast informing the user that a list has been joined. | TBD |
 | NFR10 | The application shall provide a toast informing the user that they have already joined a list they are attempting to join. | TBD |
@@ -78,8 +78,8 @@ This section outlines the Software requirements. It is divided into two subsecti
 | NFR11 | The application shall allow the user to go to the HomeScreen from the ListProductsScreen. | TBD |
 | NFR12 | The application shall allow the user to go to the HomeScreen from the ShoppingScreen. | TBD |
 | NFR13 | The application shall allow the user to go to the HomeScreen from the SummaryScreen. | TBD |
-| NFR14 | | TBD |
-| NFR15 | | TBD |
+| NFR14 |  | TBD |
+| NFR15 |  | TBD |
 
 ---
 # Test Specification
@@ -90,8 +90,13 @@ This section contains unit tests, integration tests, and system tests that were 
 ## Integration tests
 
 ## System tests
-
-
+| ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
+| :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+| ??? | Successful Shopping | <ol><li>Login</li><li>Select List from "Your Lists"</li><li>Add a Product</li><li>Edit a Product</li><li>Select "Start Shopping"</li><li>Select Multiple Products</li><li>Complete Shopping</li><li>Verify Split Cost is Accurate and Proportional to Purchased Products</li><ol> | N/A | Correct Price Distribution Between Consumers | N/A | Pass | FR19 |
+| ??? | Simple Navigation from List Products Screen to Home | <ol><li>Navigate to List Products Screen</li><li>Select Home Button (Do Not Use Android Back Button)</li><li>Verify App Navigates Home</li></ol> | Manual Home Button Select | App Navigates Home | App Navigated Home | Pass | ??? |
+| ??? | Simple Navigation from Shopping Screen to Home | <ol><li>Navigate to Shopping Screen</li><li>Select Home Button (Do Not Use Android Back Button)</li><li>Verify App Navigates Home</li></ol> | Manual Home Button Select | App Navigates Home | App Navigated Home | Pass | ??? |
+| ??? | Simple Navigation from Summary Screen to Home | <ol><li>Navigate to Summary Screen</li><li>Select Home Button (Do Not Use Android Back Button)</li><li>Verify App Navigates Home</li></ol> | Manual Home Button Select | App Navigates Home | App Navigated Home | Pass | ??? |
+| ??? | Uses HotShop Logo for App Icon | <ol><li>Navigate to Phone Downloaded Apps Overview</li><li>Locate HotShop App</li><li>Verify App Icon Contains App Logo</li></ol> | Manual Navigation | App Icon Contains App Logo | App Contained App Logo | Pass | ??? |
 ---
 
 # Software Artifacts
