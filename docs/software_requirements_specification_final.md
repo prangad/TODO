@@ -86,7 +86,18 @@ This section outlines the Software requirements. It is divided into two subsecti
 This section contains unit tests, integration tests, and system tests that were carried out on the HotShop application. The tests cover most-all basic functions of the application and ensure the application is working as intended.
 
 ## Unit tests
-
+| ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| TC1 | Add Product | <ol><li>Call the Add Product Method in Static DB Class</li><li>Assert True Function Return Value</li></ol> | "Test", 19.99, 0, 10, new ArrayList | True | True | Pass | ??? |
+| TC2 | Edit Product | <ol><li>Call the Edit Product Method in Static DB Class</li><li>Assert True Function Return Value</li></ol> | 0, 0, "Test", 10.99, 2, new ArrayList | True | True | Pass | ??? |
+| TC3 | Remove Product | <ol><li>Call the Remove Product Method in Static DB Class</li><li>Assert True Function Return Value</li></ol> | 0 | True | True | Pass | ??? |
+| TC4 | Create List | <ol><li>Call the Add List Method in Static DB Class</li><li>Assert True Function Return Value</li></ol> | "Test", 123 | True | True | Pass | ??? |
+| TC5 | Create User | <ol><li>Call the Add User Method in Static DB Class</li><li>Assert True Function Return Value</li></ol> | "test@test.com", "Hello", "Mario", "Cart" | True | True | Pass | ??? |
+| TC6 | Get Product from ID | <ol><li>Call the Get Product from ID Method in Static DB Class</li><li>Assert Equal the Product Returned Corresponds with Product ID</li></ol> | 0 | Product 0 | Product 0 | Pass | ??? |
+| TC7 | Get Consumers of Product | <ol><li>Call the Get Consumers of Product Method in Static DB Class</li><li>Assert Equal the Consumers List Returned Matches the Product Consumers</li></ol> | 0, 0 | Consumers of Product 0 in List 0 | Consumers of Product 0 in List 0 | Pass | ??? |
+| TC8 | Get List ID from Name | <ol><li>Call the Get List ID from Name Method in Static DB Class</li><li>Assert Equal the Returned List's Name Equals Input Name</li></ol> | "The Cool List" | 0 | 0 | Pass | ??? |
+| TC9 | Get List from ID | <ol><li>Call the Get List from ID Method in Static DB Class</li><li>Assert Equal the Returned List's ID Equals Input ID</li></ol> | 0 | List 0 | List 0 | Pass | ??? |
+| TC10 | Get User from ID | <ol><li>Call the Get User from ID Method in Static DB Class</li><li>Assert Equal the Returned User's ID Equals Input ID</li></ol> | 1 | User 1 | User 1 | Pass | ??? |
 ## Integration tests
 | ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
