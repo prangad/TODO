@@ -86,7 +86,7 @@ This section outlines the Software requirements. It is divided into two subsecti
 This section contains unit tests, integration tests, and system tests that were carried out on the HotShop application. The tests cover most-all basic functions of the application and ensure the application is working as intended.
 
 ## Unit tests
-| ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
+| ID | Description                       | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | TC1 | Add Product | <ol><li>Call the Add Product Method in Static DB Class</li><li>Assert True Function Return Value</li></ol> | "Test", 19.99, 0, 10, new ArrayList | True | True | Pass | ??? |
 | TC2 | Edit Product | <ol><li>Call the Edit Product Method in Static DB Class</li><li>Assert True Function Return Value</li></ol> | 0, 0, "Test", 10.99, 2, new ArrayList | True | True | Pass | ??? |
