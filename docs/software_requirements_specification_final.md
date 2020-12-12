@@ -78,8 +78,8 @@ This section outlines the Software requirements. It is divided into two subsecti
 | NFR11 | The application shall allow the user to go to the HomeScreen from the ListProductsScreen. | TBD |
 | NFR12 | The application shall allow the user to go to the HomeScreen from the ShoppingScreen. | TBD |
 | NFR13 | The application shall allow the user to go to the HomeScreen from the SummaryScreen. | TBD |
-| NFR14 |  | TBD |
-| NFR15 |  | TBD |
+| NFR14 | The application shall show the user the current total cost of a shopping trip as items are selected on the ShoppingScreen. | TBD |
+| NFR15 | The application shall show the user the total cost of a shopping trip on the SummaryScreen. | TBD |
 
 ---
 # Test Specification
